@@ -48,7 +48,7 @@ aside {
 }
 
 .photo {
-    margin-top: 40px;
+    /* display: none; */
     width: 370px;
 }
 
@@ -156,7 +156,7 @@ h1 {
     letter-spacing: 0.42px;
 }
 
-.projects_list_item_tech {
+.projects_list_item_tech, .bio_list_item {
     color: #595959;
     font-size: 14px;
     line-height: 24px;
@@ -205,4 +205,13 @@ h1 {
 
 .education_specialization {
     margin-top: 0px;
+}
+
+.bio_list_item {
+    list-style: inside;
+    color: #ff6b08;
+}
+
+.bio_list_item_descr {
+    color: #000;
 }
