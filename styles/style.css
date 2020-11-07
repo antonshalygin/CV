@@ -449,7 +449,6 @@ h1 {
         display: none;
     }
 
-
     .contacts_item {
         margin-top: 20px;
     }
@@ -466,6 +465,10 @@ h1 {
     .skills_list_item {
         margin-top: 10px;
         margin-left: 0;
+    }
+
+    .skills_list:last-child {
+        margin-bottom: 10px;
     }
 
     .main {
